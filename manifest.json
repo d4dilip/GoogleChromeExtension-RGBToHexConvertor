@@ -1,18 +1,18 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "RGB to HEX Convertor",
   "short_name": "RGB to HEX",
   
   "description": "This extension converts RGB code to HEX code.",
   "version": "1.0",
-  "author": "@d4dilip",
+  "author": "http://d4dilip.github.io/profile/",
     "background": {
     "persistent": true,
 	"page":"rgbtohexconvertor.html"
   },
   "permissions": ["bookmarks"],
-  "externally_connectable": {"matches": ["http://d4dilip.wordpress.com/*"]},
-  "homepage_url": "http://d4dilip.wordpress.com",
+  "externally_connectable": {"matches": ["http://d4dilip.github.io/profile/*"]},
+  "homepage_url": "http://d4dilip.github.io/profile/",
   "offline_enabled": true,
   "content_security_policy":"script-src 'self' 'unsafe-eval'; object-src 'self'" ,
   "browser_action": {
